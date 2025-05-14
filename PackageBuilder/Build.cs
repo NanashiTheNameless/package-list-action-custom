@@ -55,11 +55,11 @@ namespace VRC.PackageManagement.Automation
             : RootDirectory.Parent / "template-package-listing";
 
         private string _currentListingUrl;
-        [Parameter("Path to existing index.json file, typically https://{owner}.github.io/{repo}/index.json")]
+        [Parameter("Path to existing index.json file, typically hhttps://camerablockervrc.namelessnanashi.dev/index.json")]
         public string CurrentListingUrl
         {
             get => _currentListingUrl ?? 
-                $"https://{GitHubActions.RepositoryOwner}.github.io/{GitHubActions.Repository.Split('/')[1]}/{PackageListingPublishFilename}";
+                $"https://camerablockervrc.namelessnanashi.dev/{PackageListingPublishFilename}";
 
             set => _currentListingUrl = value;
         }

@@ -12,7 +12,7 @@
         },
         "CurrentListingUrl": {
           "type": "string",
-          "description": "Path to existing index.json file, typically https://{owner}.github.io/{repo}/index.json"
+          "description": "Path to existing index.json file, typically https://camerablockervrc.namelessnanashi.dev/index.json"
         },
         "CurrentPackageName": {
           "type": "string",
