@@ -55,7 +55,7 @@ namespace VRC.PackageManagement.Automation
             : RootDirectory.Parent / "template-package-listing";
 
         private string _currentListingUrl;
-        [Parameter("Path to existing index.json file, typically hhttps://camerablockervrc.namelessnanashi.dev/index.json")]
+        [Parameter("Path to existing index.json file, typically https://camerablockervrc.namelessnanashi.dev/index.json")]
         public string CurrentListingUrl
         {
             get => _currentListingUrl ?? 
